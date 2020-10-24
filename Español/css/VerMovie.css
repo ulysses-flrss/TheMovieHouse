@@ -1,0 +1,72 @@
+#Link{
+    font-size: 50px;
+    animation: TextEfect linear 1700ms infinite;
+  }
+
+@keyframes TextEfect {
+  0% {
+    text-shadow:
+      5px -5px 0 #FED20C,
+      4px -4px 0 #FED20C,
+      3px -3px 0 #FED20C,
+      2px -2px 0 #FED20C,
+      1px -1px 0 #FED20C,
+      -5px 5px 0 #81C2E2,
+      -4px 4px 0 #81C2E2,
+      -3px 3px 0 #81C2E2,
+      -2px 2px 0 #81C2E2,
+      -1px 1px 0 #81C2E2;
+  }
+  25% {
+    text-shadow:
+      -5px -5px 0 #81C2E2,
+      -4px -4px 0 #81C2E2,
+      -3px -3px 0 #81C2E2,
+      -2px -2px 0 #81C2E2,
+      -1px -1px 0 #81C2E2,
+      5px 5px 0 #FED20C,
+      4px 4px 0 #FED20C,
+      3px 3px 0 #FED20C,
+      2px 2px 0 #FED20C,
+      1px 1px 0 #FED20C;
+  }
+  50% {
+    text-shadow:
+      -5px 5px 0 #FED20C,
+      -4px 4px 0 #FED20C,
+      -3px 3px 0 #FED20C,
+      -2px 2px 0 #FED20C,
+      -1px 1px 0 #FED20C,
+      5px -5px 0 #81C2E2,
+      4px -4px 0 #81C2E2,
+      3px -3px 0 #81C2E2,
+      2px -2px 0 #81C2E2,
+      1px -1px 0 #81C2E2;
+  }
+  75% {
+    text-shadow:
+      4px 4px 0 #81C2E2,
+      4px 4px 0 #81C2E2,
+      3px 3px 0 #81C2E2,
+      2px 2px 0 #81C2E2,
+      1px 1px 0 #81C2E2,
+      -5px -5px 0 #FED20C,
+      -4px -4px 0 #FED20C,
+      -3px -3px 0 #FED20C,
+      -2px -2px 0 #FED20C,
+      -1px -1px 0 #FED20C;
+  }
+  100% {
+    text-shadow:
+      5px -5px 0 #FED20C,
+      4px -4px 0 #FED20C,
+      3px -3px 0 #FED20C,
+      2px -2px 0 #FED20C,
+      1px -1px 0 #FED20C,
+      -5px 5px 0 #81C2E2,
+      -4px 4px 0 #81C2E2,
+      -3px 3px 0 #81C2E2,
+      -2px 2px 0 #81C2E2,
+      -1px 1px 0 #81C2E2;
+  }
+}

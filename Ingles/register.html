@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu+Condensed&family=Oswald:wght@500&family=Fredoka+One&family=Yanone+Kaffeesatz:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="estilosregister.css">
+    <link rel="stylesheet" type="text/css" href="css/fontello.css">
+    <link rel="icon" href="LOGO WEB SITE1.ico">
+    <meta charset="UTF-8">
+    <script src="../JS/contraseñas.js"></script>
+    <title>Register</title>
+</head>
+<body>
+
+    <div class="form">
+        <div class="logo">
+            <img src="Imagenes/LOGO WEB SITE.png" class="logo" title="The Movie House">
+            <p>The<br>Movie<br>House</p>
+        </div>
+        <br><br><br>
+    <form action="../PHP/formulario.php" method="POST">
+        <label for="">Complete Name:</label>
+        <br>
+        <input required type="text" name="Nombre" id="nombre" placeholder="Example: Amilcar Alexander Valladares García">
+        <br><br>
+        <label for="">Username:</label>
+        <br>
+        <input required type="text" name="Usuario" id="usermane" placeholder="Example: AmilcarValle03">
+        <br><br>
+        <label for="">E-mail:</label>
+        <br>
+        <input required type="email" name="Correo" id="correo" placeholder="Example: AmilacarValle@gmail.com">
+        <br><br>
+        <label for="">Gender:</label> 
+        <br><br>
+        <label for="gender" class="genero">Male</label>
+        <input required class="genero" type="radio" name="Genero" id="gender" value="Male">
+        <br>
+        <label for="gender" class="genero">Female</label>
+        <input required class="genero" type="radio" name="Genero" id="gender" value="Female">
+        <br>
+        <label for="gender" class="genero">Undefined</label>
+        <input required class="genero" type="radio" name="Genero" id="gender" value="Undefined">
+        <br><br>
+        <label for="">Birthdate:</label>
+        <input required type="date" name="Nacimiento" id="born">
+        <br><br>
+        <label for="">Country:</label>
+        <select required name="Pais" id="pais">
+            <option  value="Germany">Germany</option>
+            <option  value="Argentina">Argentina</option>
+            <option  value="Belgium">Belgium</option>
+            <option  value="Belice">Belice</option>
+            <option  value="Bolivia">Bolivia</option>
+            <option  value="Brazil">Brazil</option>
+            <option  value="Canadá">Canadá</option>
+            <option  value="Chile">Chile</option>
+            <option  value="Colombia">Colombia</option>
+            <option  value="Costa Rica">Costa Rica</option>
+            <option  value="Cuba">Cuba</option>
+            <option  value="Ecuador">Ecuador</option>
+            <option  value="El Salvador">El Salvador</option>
+            <option  value="Spain">Spain</option>
+            <option  value="United States">United States</option>
+            <option  value="France">France</option>
+            <option  value="Guatemala">Guatemala</option>
+            <option  value="Honduras">Honduras</option>
+            <option  value="Hungary">Hungary</option>
+            <option  value="Holand">Holand</option>
+            <option  value="Italy">Italy</option>
+            <option  value="México">México</option>
+            <option  value="Nicaragua">Nicaragua</option>
+            <option  value="Panamá">Panamá</option>
+            <option  value="Perú">Perú</option>
+            <option  value="Paraguay">Paraguay</option>
+            <option  value="Portugal">Portugal</option>
+            <option  value="Dominican Republic">Dominican Republic</option>
+            <option  value="Switzerland">Switzerland</option>
+            <option  value="Uruguay">Uruguay</option>
+            <option value="Other">Other</option>
+        </select>
+        <br><br>
+        <label for="">Password:</label>
+        <input required type="password" name="Contraseña" id="contraseña1" placeholder="Example: AlmiVall310">
+        <br><br>
+        <label for="">Confirm Password:</label>
+        <input required type="password" name="Confirmacion" id="contraseña2" placeholder="Example: AlmiVall310">
+    
+
+
+    <div class="items">
+        <a href="login.html">Do you already have an account?</a>
+        <br><br>
+        <a href="index.html">Skip</a>
+        <br><br>
+        <a href="index.html">Return Home</a>
+   
+        <input type="submit" value="Crear Cuenta" class="enviar">
+            
+    </form>
+</body>
+</html>

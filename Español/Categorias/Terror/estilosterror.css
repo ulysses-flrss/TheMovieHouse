@@ -1,0 +1,208 @@
+*{
+  margin:0px;
+  padding:0px;
+  list-style: none;
+  text-decoration: none;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body{
+  background: #E4E4E4;
+  font-family: sans-serif;
+}
+
+.logo{
+  margin: -2.5px 40px 10px 50px;
+  width: auto;
+  height: 100px;
+  float: left;
+  transition:all .75s ease;
+}
+
+.logo:hover img {
+  transform: scale(1.10);
+}
+
+.lang {
+  margin: 10px;
+  width: 45px;
+  height: auto;
+}
+
+nav{
+  position: relative;
+  height: 145px;
+  width: 100px;
+  box-shadow: 7px 10px 5px rgba(0,0,0,0.5);
+}
+
+nav ul li a img{
+  justify-content: center;
+  align-items: center;
+}
+
+.opciones{
+  font-size: 27.5px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.cat {
+  font-size: 20px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly; 
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-top: 11px;
+}
+/*Pre-Ajustes* FIN/
+
+/*Inicio del Menu*/
+
+.contenedor{
+  top: 0;
+  position: fixed;
+  z-index: 2;
+  width: 100%;
+  margin-bottom: 25px;
+  padding-top: 20px;
+}
+
+.contenedor nav{
+  width: 80%;
+  background: #01415F;
+  border: 8px solid #ffffff;
+  margin: auto;
+  border-radius: 100px;
+  padding: 20px 0  20px 0;
+}
+
+.contenedor nav ul{
+  list-style: none;
+  position: relative;
+  right: 5%;
+}
+
+.contenedor nav > ul > li{
+  display: inline-block;
+
+}
+
+.contenedor nav > ul > li > a{
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 20px;
+}
+
+.contenedor nav > ul > li > a span{
+  color: white;
+  font-size: 28px;
+  position: absolute;
+  bottom: -11px;
+  display: none
+}
+
+.contenedor nav > ul > li > .SubContenedor span{
+  font-size: 28px;
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  display: none;
+  color: white;
+}
+
+.contenedor nav > ul > li > a:hover span{
+  display: block;
+}
+
+.contenedor nav > ul > li > .SubContenedor:hover span{
+  display: block;
+}
+
+.contenedor nav ul li .SubContenedor{
+  background: #FFF;
+  padding: 20px;
+  position: absolute;
+  display: none;
+}
+
+.SubContenedor ul li{
+  padding: 10px;
+}
+
+.SubContenedor ul li a{
+  text-decoration: none;
+  color: black;
+}
+
+.contenedor nav > ul > li > .Subcontenedor li > a{
+  text-decoration: none;
+}
+
+
+.contenedor nav ul li:hover .SubContenedor{
+  display: flex;
+}
+
+.contenedor nav ul li .Categ{
+  margin: 0 20px;
+}
+
+.contenedor nav ul li .SubContenedor .Categ li{
+  padding-bottom: 10px;
+}
+
+.contenedor nav ul li .SubContenedor .Categ li a{
+  text-decoration: none;
+  color: black;
+}
+
+/*Fin del Menu*/
+
+
+
+
+  .Terror {
+    list-style: none;
+    margin-top: 250px;
+}
+
+.Terror>li{
+    width: 150px;
+    height: auto;
+    float: left;
+    margin: 0 5.5em 2em;
+}
+
+.Terror>li>a>img {
+  border-radius: 5px;
+  width: 200px;
+  height: 290px   ;
+  float: left;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+  transition: all .50s ease;
+  border: 3px solid black;
+}
+
+.Terror>li>a>img:hover {
+  transform: scale(1.15);
+  filter: opacity(70%);
+  filter: brightness(50%);
+}
+
+footer{
+  margin: auto;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 0 15px 0;
+}

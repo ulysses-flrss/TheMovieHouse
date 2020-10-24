@@ -1,0 +1,124 @@
+/*AZUL #01415F
+AMARILLO #FED20C
+CELESTE #81C2E2
+AQUA #06E0AA*/
+
+body {
+    background-color: #81C2E2;
+}
+
+
+div.form{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+    margin: auto;
+    width: 400px;
+    height: 1175px;
+}
+
+p{  float: right;
+    margin: 0 110px 0 0 ;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+
+img {
+    height: auto;
+    margin: 0 0 0 110px;
+    width: 100px;
+}
+
+.enviar {
+    margin: 0px 310px 0px 310px;
+    padding: 8px;
+    background-color: #0f52ba;
+    border-style: none;
+    border: 2px solid black;
+    border-radius: 25px;
+    color: white;
+    outline: none;
+}
+
+.enviar:hover {
+    background-color: #0E4293;
+    border: 2px solid black;
+}
+
+.enviar:active {
+    background-color: #01415F;
+    border: 2px solid black;
+}
+
+.items {
+    margin: 60px 0 0 0 ;
+
+}
+
+div.items>a{
+    font-weight: bold;
+    text-decoration: none;
+    color:#0E4293   ;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 0 2px 0;
+}
+
+
+
+div.items>a:hover {
+    color: #0b264e;
+    border-bottom: 2px solid #0b264e;
+}
+
+
+label {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    padding: 5px;
+    padding-bottom: 50px;
+    margin: 0 0 50px;
+}
+
+label.genero {
+    font-weight: 200 !important;
+    margin:0 0 20px 0;
+}
+
+select {
+    width: 150px !important;
+    height: 50px !important;
+    background-color: white;
+}
+select, input:not(.enviar):not(.genero){
+    width: 300px;
+    height: 20px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    border:  2px solid black;
+    font-family: 'Open Sans', sans-serif;
+    padding: 8px;
+    outline: none;
+    margin:10px 0 15px 0;
+
+}
+
+
+
+input:not(.enviar):hover {
+    border: 2px solid #81C2E2;
+}
+
+select:active {
+    border: 2px solid #81C2E2;
+}
+
+input.short {
+    width: 90px !important;
+}
+
+button {
+    width: 100px;
+}
+
