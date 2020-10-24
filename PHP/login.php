@@ -18,9 +18,9 @@
     $fila = mysqli_num_rows($q);
 
     if ($fila > 0) {
-        echo "Correo Y Contraseña Correcta <a href = ../Español/index.html>Ir Al Inicio</a>";
+        header ('../index.html')
     } else {
-        echo "Correo o Contraseña Incorrectos <a href = ../Español/login.html>Volver a Intentar</a>";
+        echo "<link href = '../estilosregister.css' type = 'text/css' rel = 'stylesheet'> <p class = 'stylePassword'>Correo o Contraseña Incorrectos</p> <a href = ../Español/login.html>Volver a Intentar</a>";
     }  mysqli_free_result($q);
 
     echo $fila;

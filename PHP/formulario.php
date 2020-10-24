@@ -13,14 +13,14 @@
     }
 
     $id = "";
-    $Nombre = $_POST['Nombre'];
-    $Usuario = $_POST['Usuario'];
-    $Correo = $_POST['Correo'];
-    $Genero = $_POST['Genero'];
-    $Nacimiento = $_POST['Nacimiento'];
-    $Pais = $_POST['Pais'];
-    $Contraseña = $_POST['Contraseña'];
-    $Confirmacion = $_POST['Confirmacion'];
+    $Nombre = $GET['Nombre'];
+    $Usuario = $_GET['Usuario'];
+    $Correo = $_GET['Correo'];
+    $Genero = $_GET['Genero'];
+    $Nacimiento = $_GET['Nacimiento'];
+    $Pais = $_GET['Pais'];
+    $Contraseña = $_GET['Contraseña'];
+    $Confirmacion = $_GET['Confirmacion'];
     
     if ($Contraseña != $Confirmacion) {
        echo '<script>
@@ -31,9 +31,9 @@
     
     $ejecutar = mysqli_query($conectar, $sql);
     if (!$ejecutar) {
-        echo "Los Datos No se REGISTRARON";
+        echo "<p class = 'nonRegistered'>Los Datos No se REGISTRARON</p>";
     } else {
-        echo "Los Datos Se Registraron Correctamente <a href ='../Español/index.html'>Volver al inicio</a>";
+        echo "<p class = 'dataRegistered'Los Datos Se Registraron Correctamente </p> <a href ='../Español/index.html'>Volver al inicio</a>";
     } }
     
 

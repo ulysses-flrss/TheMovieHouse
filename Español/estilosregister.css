@@ -7,6 +7,9 @@ body {
     background-color: #81C2E2;
 }
 
+.stylePassword {
+    font-size: 100px;
+}
 
 div.form{
     padding: 50px;
