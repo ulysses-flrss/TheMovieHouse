@@ -13,14 +13,14 @@
     }
 
     $id = "";
-    $Nombre = $_GET['Nombre'];
-    $Usuario = $_GET['Usuario'];
-    $Correo = $_GET['Correo'];
-    $Genero = $_GET['Genero'];
-    $Nacimiento = $_GET['Nacimiento'];
-    $Pais = $_GET['Pais'];
-    $Contraseña = $_GET['Contraseña'];
-    $Confirmacion = $_GET['Confirmacion'];
+    $Nombre = $_POST['Nombre'];
+    $Usuario = $_POST['Usuario'];
+    $Correo = $_POST['Correo'];
+    $Genero = $_POST['Genero'];
+    $Nacimiento = $_POST['Nacimiento'];
+    $Pais = $_POST['Pais'];
+    $Contraseña = $_POST['Contraseña'];
+    $Confirmacion = $_POST['Confirmacion'];
     
     /*$query = "SELECT * FROM datos WHERE  Usuario LIKE '".$Usuario."' ";  
     $q = mysqli_query($conectar, $query);
@@ -47,7 +47,7 @@
                 <head>
                 <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
                 <link href='https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
-                <span class = 'welcomeMessage'>Bienvenido/a $Nombre</span>
+                <span class = 'welcomeMessage'>Bienvenido/a <br> $Nombre</span>
         </head>
         </html>";
         
