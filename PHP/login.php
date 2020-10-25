@@ -22,8 +22,4 @@
     } else {
         echo "<link href = '../estilosregister.css' type = 'text/css' rel = 'stylesheet'> <p class = 'stylePassword'>Correo o Contraseña Incorrectos</p> <a href = ../Español/login.html>Volver a Intentar</a>";
     }  mysqli_free_result($q);
-
-    echo $fila;
-    echo $Usuario;
-    echo $Contraseña;
 ?>
