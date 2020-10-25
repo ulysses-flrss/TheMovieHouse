@@ -13,7 +13,7 @@
     }
 
     $id = "";
-    $Nombre = $GET['Nombre'];
+    $Nombre = $_GET['Nombre'];
     $Usuario = $_GET['Usuario'];
     $Correo = $_GET['Correo'];
     $Genero = $_GET['Genero'];
@@ -33,9 +33,14 @@
     if (!$ejecutar) {
         echo "<p class = 'nonRegistered'>Los Datos No se REGISTRARON</p>";
     } else {
-        echo "<p class = 'dataRegistered'Los Datos Se Registraron Correctamente </p> <a href ='../Español/index.html'>Volver al inicio</a>";
+        echo "  <!DOCTYPE html>
+                <html lang='en'>
+                <head>
+                <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
+                <link href'https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
+                <span class = 'welcomeMessage'>Bienvenido $Nombre</span>
+        </head>
+        </html>";
+        
     } }
-    
-
-    
 ?>
