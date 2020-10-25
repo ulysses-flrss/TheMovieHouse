@@ -44,10 +44,10 @@
     } else {
         echo "  <!DOCTYPE html>
                 <html lang='en'>
-                <head>
-                <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
-                <link href='https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
-                <span class = 'welcomeMessage'>Bienvenido/a <br> $Nombre</span>
+        <head>
+            <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
+            <link href='https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
+            <span class = 'welcomeMessage'>Bienvenido/a <br> $Nombre</span>
         </head>
         </html>";
         
