@@ -22,6 +22,15 @@
     $Contraseña = $_GET['Contraseña'];
     $Confirmacion = $_GET['Confirmacion'];
     
+    /*$query = "SELECT * FROM datos WHERE  Usuario LIKE '".$Usuario."' ";  
+    $q = mysqli_query($conectar, $query);
+
+    $fila = mysqli_num_rows($q);
+
+    if ($fila >= 1) {
+        echo "El Usuario Ingresado No Está Disponible";
+    } else {*/
+
     if ($Contraseña != $Confirmacion) {
        echo '<script>
                 alert ("Las Contraseñas No Coinciden");
@@ -37,10 +46,10 @@
                 <html lang='en'>
                 <head>
                 <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
-                <link href'https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
-                <span class = 'welcomeMessage'>Bienvenido $Nombre</span>
+                <link href='https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
+                <span class = 'welcomeMessage'>Bienvenido/a $Nombre</span>
         </head>
         </html>";
         
-    } }
+    } } }
 ?>

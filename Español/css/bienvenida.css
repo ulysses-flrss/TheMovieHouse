@@ -1,8 +1,8 @@
 span.welcomeMessage  {
-    margin:auto;
+    margin: auto;
+    padding: auto;
     align-items: center;
     font-size: 225px;
     font-family: 'Teko', sans-serif;
-
-
+    text-align: center;
 }
