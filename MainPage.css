@@ -1,49 +1,91 @@
 body {
-    background:linear-gradient(90deg, #97dcff 0%, #83c5e6 15%, #7dbbda 50%, #6da6c5 75%, #619ebe 95%) ;
-
-}
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(247,15,15,1) 100%);}
 
 a {
     text-decoration: none;
     color: black;
-    width: fit-content;
 }
+
+
 
 .idiomMessage{
     text-align: center;
-    
+    font-size: 75px;
+    margin: 0 0 5px 0;
+    font-family: 'Amatic SC', cursive;
+    color: #FFF;
 }
 
 .spanish {
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.spanish>a {
+    width: fit-content;
+    margin: auto;
+    display: flex;
+    border-radius: 50px;
 }
 
 #imageSpanish {
+    margin: 50px 100px;
+    display: flex;
     width: 250px;
     height: auto;
 }
 
 #messageSpanish {
+    margin: 50px 100px;
     display: flex;
+    font-family: 'Concert One', cursive;
     text-decoration: none;
     align-items: center;
     font-size: 50px;
+    
 }
 
+a.Español:hover {
+    transition: all 500ms ease-out;
+    color: #FFF;   
+    transform: scale(1.05);
+    background: linear-gradient(90deg, rgb(7, 7, 92) 0%, rgb(160, 5, 5) 100%);}
 .english {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-evenly
+    
+
 }
 
+.english>a {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50px;
+}
+
+
+
 #imageEnglish {
+    margin: 50px 100px;
     width: 250px;
     height: auto;
 }
 
 #messageEnglish {
+    margin: 50px 100px;
     display: flex;
+    flex-direction: row;
+    font-family: 'Concert One', cursive;
     align-items: center;
     font-size: 50px;
     text-decoration: none;
+
 }
+
+a.Ingles:hover {
+    color: #FFF;
+    transition: all 500ms ease-out;
+    transform: scale(1.05);
+    background: linear-gradient(90deg, rgb(7, 7, 92) 0%, rgb(160, 5, 5) 100%);}
