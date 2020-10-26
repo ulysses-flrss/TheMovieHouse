@@ -6,7 +6,6 @@
     <link rel="stylesheet" type="text/css" href="css/fontello.css">
     <link rel="icon" href="LOGO WEB SITE1.ico">
     <meta charset="UTF-8">
-    <script src="../JS/contraseñas.js"></script>
     <title>Register</title>
 </head>
 <body>
@@ -33,13 +32,13 @@
         <label for="">Gender:</label> 
         <br><br>
         <label for="gender" class="genero">Male</label>
-        <input required class="genero" type="radio" name="Genero" id="gender" value="Male">
+        <input required class="genero" type="radio" name="Genero" value="Male">
         <br>
         <label for="gender" class="genero">Female</label>
-        <input required class="genero" type="radio" name="Genero" id="gender" value="Female">
+        <input required class="genero" type="radio" name="Genero"  value="Female">
         <br>
         <label for="gender" class="genero">Undefined</label>
-        <input required class="genero" type="radio" name="Genero" id="gender" value="Undefined">
+        <input required class="genero" type="radio" name="Genero"  value="Undefined">
         <br><br>
         <label for="">Birthdate:</label>
         <input required type="date" name="Nacimiento" id="born">
@@ -52,7 +51,7 @@
             <option  value="Belice">Belice</option>
             <option  value="Bolivia">Bolivia</option>
             <option  value="Brazil">Brazil</option>
-            <option  value="Canadá">Canadá</option>
+            <option  value="Canadá">Canada</option>
             <option  value="Chile">Chile</option>
             <option  value="Colombia">Colombia</option>
             <option  value="Costa Rica">Costa Rica</option>
@@ -80,10 +79,12 @@
         </select>
         <br><br>
         <label for="">Password:</label>
-        <input required type="password" name="Contraseña" id="contraseña1" placeholder="Example: AlmiVall310">
+        <input required type="password" name="Contraseña" id="firstPassword" placeholder="Example: AlmiVall310">
+        <img title="Show/Hide Password" id="toggPassword" src="../Español/eye.png" alt="">
         <br><br>
         <label for="">Confirm Password:</label>
-        <input required type="password" name="Confirmacion" id="contraseña2" placeholder="Example: AlmiVall310">
+        <input required type="password" name="Confirmacion" id="secondPassword" placeholder="Example: AlmiVall310">
+        <img title="Show/Hide Password" id="toggPassword2" src="../Español/eye.png" alt="">
     
 
 
@@ -94,8 +95,9 @@
         <br><br>
         <a href="index.html">Return Home</a>
    
-        <input type="submit" value="Crear Cuenta" class="enviar">
-            
+        <input type="submit" value="Crear Cuenta" class="enviar">     
     </form>
+    
+    <script src="../JS/contraseñas.js"></script>
 </body>
 </html>

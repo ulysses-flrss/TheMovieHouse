@@ -11,6 +11,58 @@ body {
     font-size: 100px;
 }
 
+
+#toggPassword{
+    display: inline;
+    position: absolute;
+    outline: none;
+    margin: auto auto auto 10px;
+    top: 920px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+#toggPassword2 {
+    display: inline;
+    position: absolute;
+    outline: none;
+    margin: auto auto auto 10px;
+    top: 1030px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+#toggPassword:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
+}
+
+
+#toggPassword2:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword2:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
+}
+
 div.form{
     padding: 50px;
     background-color: white;
@@ -100,7 +152,7 @@ select {
     height: 50px !important;
     background-color: white;
 }
-select, input:not(.enviar):not(.genero){
+select, input:not(.enviar):not(.genero):not(#toggPassword){
     width: 300px;
     height: 20px;
     border-radius: 8px;
@@ -112,9 +164,6 @@ select, input:not(.enviar):not(.genero){
     margin:10px 0 15px 0;
 
 }
-
-
-
 input:not(.enviar):hover {
     border: 2px solid #81C2E2;
 }
@@ -125,9 +174,5 @@ select:active {
 
 input.short {
     width: 90px !important;
-}
-
-button {
-    width: 100px;
 }
 

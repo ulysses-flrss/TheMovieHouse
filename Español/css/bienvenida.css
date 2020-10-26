@@ -1,8 +1,64 @@
-span.welcomeMessage  {
+body {
+    background:linear-gradient(90deg, #81C2E2 0%, #699fb9 15%, #4c7386 50%, #3a5868 75%, #2b424e 95%) ;
+
+}
+
+div.divToIndex {
+    width: fit-content;
+    height: fit-content;
     margin: auto;
-    padding: auto;
-    align-items: center;
-    font-size: 225px;
-    font-family: 'Teko', sans-serif;
+}
+
+div.divToMessage {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+a.toIndex {
+
+    width: fit-content;
+    height: fit-content;
+}
+
+
+img.logoImage {
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    height: auto;
+    margin: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: 0px 0px 50px #000000;
+    
+}
+
+.logoImage:hover {
+    transition: 500ms ease-out;
+    transform: scale(1.05);
+    box-shadow: 10px 5px 50px #ffffff;
+    filter: brightness(110%);
+    
+}
+
+p.welcomeMessage  {
+    margin: auto auto 0px auto;
     text-align: center;
+    font-size: 150px;
+    font-family: 'Fredoka One', cursive;
+}
+
+p.welcomeName {
+    margin: 0px auto auto auto;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
+    text-align: center;
+    cursor: pointer;
+}
+
+p.welcomeName:hover {
+    transition: 1s;
+    transform: scale(0.95);
+    text-shadow: 5px 5px 20px #000000;
 }

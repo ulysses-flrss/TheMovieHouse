@@ -46,10 +46,12 @@
                 <html lang='en'>
         <head>
             <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
-            <link href='https://fonts.googleapis.com/css2?family=Teko:wght@500&display=swap' rel='stylesheet'>
-            <span class = 'welcomeMessage'>Bienvenido/a <br> $Nombre</span>
+            <link href='https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&family=Fredoka+One&family=Teko:wght@500&family=Ubuntu+Condensed&display=swap' rel='stylesheet'>
+            <div class = 'divToIndex'><a class = 'toIndex' href = '../Español/Index.html'><img title = 'Ir A Inicio' class = 'logoImage' src = '../Español/Imagenes/LOGO WEB SITE.png'></a></div>
+            <div class = 'divToMessage'><p class = 'welcomeMessage'>Bienvenido/a <p title = 'Perfil De: $Nombre' class = 'welcomeName'>$Nombre</p> </p><div>
+
         </head>
         </html>";
         
-    } } }
+    } } 
 ?>
