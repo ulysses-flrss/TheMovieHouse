@@ -13,11 +13,54 @@ body {
 
 
 #toggPassword{
+    display: inline;
+    position: absolute;
     outline: none;
-    margin: auto;
-    width: 70px;
+    margin: auto auto auto 10px;
+    top: 920px;
+    width: 40px;
     height: auto;
     cursor: pointer;
+}
+
+#toggPassword2 {
+    display: inline;
+    position: absolute;
+    outline: none;
+    margin: auto auto auto 10px;
+    top: 1030px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+#toggPassword:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
+}
+
+
+#toggPassword2:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword2:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
 }
 
 div.form{
