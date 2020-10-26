@@ -34,8 +34,33 @@ body {
     cursor: pointer;
 }
 
-#toggPassword, #toggPassword2 {
-            
+#toggPassword:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
+}
+
+
+#toggPassword2:hover {
+
+    transition: 300ms;
+    transform: scale(0.95);
+    filter: opacity(0.75);
+}
+
+#toggPassword2:active {
+
+    transition: 50ms;
+    transform: scale(1.05);
+    filter: opacity(0.75);
 }
 
 div.form{
