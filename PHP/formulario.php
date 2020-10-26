@@ -47,8 +47,8 @@
         <head>
             <link rel='stylesheet' href='../Español/css/bienvenida.css'> 
             <link href='https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&family=Fredoka+One&family=Teko:wght@500&family=Ubuntu+Condensed&display=swap' rel='stylesheet'>
-            <a class = 'toIndex' href = '../Español/Index.html'><img title = 'Ir A Inicio' class = 'logoImage' src = '../Español/Imagenes/LOGO WEB SITE.png'></a>
-            <p class = 'welcomeMessage'>Bienvenido/a <p title = 'Perfil De: $Nombre' class = 'welcomeName'>$Nombre</p> </p>
+            <div class = 'divToIndex'><a class = 'toIndex' href = '../Español/Index.html'><img title = 'Ir A Inicio' class = 'logoImage' src = '../Español/Imagenes/LOGO WEB SITE.png'></a></div>
+            <div class = 'divToMessage'><p class = 'welcomeMessage'>Bienvenido/a <p title = 'Perfil De: $Nombre' class = 'welcomeName'>$Nombre</p> </p><div>
 
         </head>
         </html>";

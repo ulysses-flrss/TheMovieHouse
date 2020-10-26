@@ -3,7 +3,20 @@ body {
 
 }
 
+div.divToIndex {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
+div.divToMessage {
+    width: fit-content;
+    height: fit-content;
+    margin: auto;
+}
+
 a.toIndex {
+
     width: fit-content;
     height: fit-content;
 }
@@ -17,17 +30,16 @@ img.logoImage {
     margin: auto;
     cursor: pointer;
     border-radius: 50%;
-    -webkit-text-stroke-width: 100px;
-    -webkit-text-stroke-color: black;
+    box-shadow: 0px 0px 50px #000000;
+    
 }
 
 .logoImage:hover {
     transition: 500ms ease-out;
     transform: scale(1.05);
+    box-shadow: 10px 5px 50px #ffffff;
+    filter: brightness(110%);
     
-    -moz-box-shadow: 0px 0px 50px #ffffff;
-    -webkit-box-shadow: 0px 0px 50px #ffffff;
-    box-shadow: 0px 0px 50px #ffffff;
 }
 
 p.welcomeMessage  {
