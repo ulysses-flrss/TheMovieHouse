@@ -1,8 +1,27 @@
-span.welcomeMessage  {
+body {
+    background:linear-gradient(90deg, #81C2E2 0%, #699fb9 15%, #4c7386 50%, #3a5868 75%, #2b424e 95%) ;
+
+}
+
+img.logoImage {
+    display: flex;
+    justify-content: center;
+        width: 200px;
+    height: auto;
     margin: auto;
-    padding: auto;
-    align-items: center;
-    font-size: 225px;
-    font-family: 'Teko', sans-serif;
+}
+
+p.welcomeMessage  {
+    margin: auto auto 0px auto;
+    text-align: center;
+    font-size: 150px;
+    font-family: 'Fredoka One', cursive;
+    
+}
+
+p.welcomeName {
+    margin: 0px auto auto auto;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 100px;
     text-align: center;
 }
