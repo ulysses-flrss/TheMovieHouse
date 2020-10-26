@@ -3,12 +3,31 @@ body {
 
 }
 
+a.toIndex {
+    width: fit-content;
+    height: fit-content;
+}
+
+
 img.logoImage {
     display: flex;
     justify-content: center;
-        width: 200px;
+    width: 200px;
     height: auto;
     margin: auto;
+    cursor: pointer;
+    border-radius: 50%;
+    -webkit-text-stroke-width: 100px;
+    -webkit-text-stroke-color: black;
+}
+
+.logoImage:hover {
+    transition: 500ms ease-out;
+    transform: scale(1.05);
+    
+    -moz-box-shadow: 0px 0px 50px #ffffff;
+    -webkit-box-shadow: 0px 0px 50px #ffffff;
+    box-shadow: 0px 0px 50px #ffffff;
 }
 
 p.welcomeMessage  {
@@ -16,7 +35,6 @@ p.welcomeMessage  {
     text-align: center;
     font-size: 150px;
     font-family: 'Fredoka One', cursive;
-    
 }
 
 p.welcomeName {
@@ -24,4 +42,11 @@ p.welcomeName {
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 100px;
     text-align: center;
+    cursor: pointer;
+}
+
+p.welcomeName:hover {
+    transition: 1s;
+    transform: scale(0.95);
+    text-shadow: 5px 5px 20px #000000;
 }
