@@ -13,11 +13,29 @@ body {
 
 
 #toggPassword{
+    display: inline;
+    position: absolute;
     outline: none;
-    margin: auto;
-    width: 70px;
+    margin: auto auto auto 10px;
+    top: 920px;
+    width: 40px;
     height: auto;
     cursor: pointer;
+}
+
+#toggPassword2 {
+    display: inline;
+    position: absolute;
+    outline: none;
+    margin: auto auto auto 10px;
+    top: 1030px;
+    width: 40px;
+    height: auto;
+    cursor: pointer;
+}
+
+#toggPassword, #toggPassword2 {
+            
 }
 
 div.form{
