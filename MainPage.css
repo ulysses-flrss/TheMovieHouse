@@ -1,0 +1,49 @@
+body {
+    background-color: #E4E4E4
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    width: fit-content;
+}
+
+.idiomMessage{
+    text-align: center;
+    
+}
+
+.spanish {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imageSpanish {
+    width: 250px;
+    height: auto;
+}
+
+#messageSpanish {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    font-size: 50px;
+}
+
+.english {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#imageEnglish {
+    width: 250px;
+    height: auto;
+}
+
+#messageEnglish {
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    text-decoration: none;
+}
