@@ -88,16 +88,16 @@
     padding: 20px;
   }
   
-  .contenedor nav > ul > li > a span{
-    font-size: 20px;
-    position: absolute;
-    bottom: -17.5px;
-    display: none;
-  }
-  
-  .contenedor nav > ul > li > a:hover span{
-    display: block;
-  }
+  .SubContenedor span{
+  color: white;
+  font-size: 27px;
+  position: absolute;
+  top: -19px;
+}
+
+.contenedor nav > ul > li > .SubContenedor:hover span{
+  display: block;
+}
   
   .contenedor nav ul li .SubContenedor{
     background: #FFF;
