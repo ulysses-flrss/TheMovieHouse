@@ -22,14 +22,14 @@
     $Contraseña = $_POST['Contraseña'];
     $Confirmacion = $_POST['Confirmacion'];
     
-    /*$query = "SELECT * FROM datos WHERE  Usuario LIKE '".$Usuario."' ";  
+    $query = "SELECT * FROM datos WHERE  Usuario LIKE '".$Usuario."' ";  
     $q = mysqli_query($conectar, $query);
 
     $fila = mysqli_num_rows($q);
 
     if ($fila >= 1) {
         echo "El Usuario Ingresado No Está Disponible";
-    } else {*/
+    } else {
 
     if ($Contraseña != $Confirmacion) {
        echo '<script>
