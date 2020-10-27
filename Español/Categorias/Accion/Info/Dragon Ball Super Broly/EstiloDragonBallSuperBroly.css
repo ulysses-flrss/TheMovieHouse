@@ -9,6 +9,13 @@
     background: #E4E4E4;
     font-family: sans-serif;
   }
+
+  .lang {
+    margin: 10px;
+    width: 45px;
+    height: auto;
+  }
+  
   
   .logo{
     margin: 8px 40px 10px 50px;
