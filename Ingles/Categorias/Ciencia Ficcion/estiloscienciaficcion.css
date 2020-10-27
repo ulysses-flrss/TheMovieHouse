@@ -204,3 +204,24 @@ nav ul li a img{
   align-items: center;
   padding: 0 0 15px 0;
 }
+
+#pagina {
+  position: relative;
+  min-height: 100%;
+}
+
+#contenido {
+  padding-bottom:50px; /* este valor debe ser igual o mayor al alto del pie */
+}
+
+#pie {
+  height:50px;
+  line-height:50px;
+  background:#01415F;
+  color:white;
+  text-align:center;
+  position:absolute;
+  bottom:0;
+  left:0;
+  width:100%;
+}
