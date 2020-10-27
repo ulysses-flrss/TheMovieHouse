@@ -4,6 +4,12 @@
     padding: 0;
     scroll-behavior: smooth;
   }
+
+  .lang {
+    margin: 10px;
+    width: 45px;
+    height: auto;
+  }
   
   body{
     background: #E4E4E4;
